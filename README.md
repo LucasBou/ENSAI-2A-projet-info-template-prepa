@@ -244,3 +244,11 @@ When you *push* on GitHub, it triggers a pipeline that will perform the followin
   - If the score is less than 7.5, the step will fail
 
 You can check how this pipeline is progressing on your repository's GitHub page, *Actions* tab.
+
+## Notes sur le déroulé
+
+### roles non existants sur la db
+Pour l'instance GENES : 
+malgré le message au provisionnement de l'instance postgresql, le role user-lbouju-ensai n'existe pas et pour le user postgres admin "no password assigned.
+
+L'instance INSEE était ok
